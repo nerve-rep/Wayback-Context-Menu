@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Открыть в Wayback Machine",
+  "version": "1.0",
+  "description": "Открыть страницу или ссылку в web.archive.org",
+  "permissions": ["contextMenus"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
